@@ -1,3 +1,4 @@
+//<![CDATA[
 $(document).ready(function() {
     loadRSS('https://www.pijari.com/atom.xml', '#Newsfeed', 'Pijari.com');   
 });
@@ -20,3 +21,4 @@ function loadRSS(link, htmlContainer, author) {
         }
     });
 }
+//]]>
